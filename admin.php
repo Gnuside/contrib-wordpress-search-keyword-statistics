@@ -20,7 +20,7 @@ add_action( 'wp_loaded', 'ss_keyword_trace' );
 function ss_keyword_trace( ) {
     
     require 'ss-keyword-trace.php';
-      if( strpos($_SERVER['PHP_SELF'], 'wp-admin')==false)
+      if( strpos($_SERVER['PHP_SELF'], 'wp-admin')==false || strpos($_SERVER['PHP_SELF'], 'admin-ajax')!=false )
     {
 	if(!empty($_GET['s']) ) {
 		$keyword = trim($_GET['s']);
