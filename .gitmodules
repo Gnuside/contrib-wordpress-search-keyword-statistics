@@ -1,0 +1,3 @@
+[submodule "wordpress-plugins/wordpress-search-keyword-statistics"]
+	path = wordpress-plugins/wordpress-search-keyword-statistics
+	url = https://github.com/Gnuside/wordpress-search-keyword-statistics.git

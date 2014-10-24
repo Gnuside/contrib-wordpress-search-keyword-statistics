@@ -109,7 +109,7 @@
         </div>
 <div>
     <form action="" method="post" name="frmKeyword" >
-<table cellpadding="0" cellspacing="0" border="0" class="display" id="example" width="100%">
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="example" width="100%" >
 	<thead>
 		<tr>
                         <th></th>
@@ -173,41 +173,6 @@
 Plugin Developed by : <a href="http://www.blogfordeveloper.com/" title="Blog For Developer" target="_blank">Blogfordeveloper.com</a>
 </div>
 
-<div>
-<div style="outline: 2px ridge #1B121C; margin:10px 10px; text-align:center; font-size:14px; font-family:Georgia, 'Times New Roman', Times, serif; padding:2px 2px; float:left;">
-<h4>Recent Posts from Our Blog</h4>
-
-<div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-like-box" data-href="https://www.facebook.com/BlogForDevelopers" data-width="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-</div>
-</div>
-
-<div style="outline: 2px ridge #1B121C; margin:10px 10px; text-align:center; font-size:14px; font-family:Georgia, 'Times New Roman', Times, serif; padding:2px 2px; float:left;">
-<h4>Recent Posts from Our Free Photo Stocks</h4>
-
-<div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like-box" data-href="https://www.facebook.com/indianphotographsnphotography" data-width="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-</div>
-<div style="clear:both;"></div>
-</div>
-</div>
 <script type="text/javascript">
     jQuery(document).ready(function() {
 	jQuery('#example').dataTable();
